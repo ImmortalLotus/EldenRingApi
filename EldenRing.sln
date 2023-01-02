@@ -5,6 +5,10 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EldenRing.Api", "src\EldenRing.Api\EldenRing.Api.csproj", "{F5C8B7A3-6B27-45AF-9505-922AEFB3C2EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EldenRing.Domain", "EldenRing.Domain\EldenRing.Domain.csproj", "{B9CD9DD6-F1F9-477F-8666-E940D206F832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EldenRing.Infra", "EldenRing.Infra\EldenRing.Infra.csproj", "{32865379-41A1-4F94-82E0-4FCE97217A8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{F5C8B7A3-6B27-45AF-9505-922AEFB3C2EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5C8B7A3-6B27-45AF-9505-922AEFB3C2EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5C8B7A3-6B27-45AF-9505-922AEFB3C2EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9CD9DD6-F1F9-477F-8666-E940D206F832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9CD9DD6-F1F9-477F-8666-E940D206F832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9CD9DD6-F1F9-477F-8666-E940D206F832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9CD9DD6-F1F9-477F-8666-E940D206F832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32865379-41A1-4F94-82E0-4FCE97217A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32865379-41A1-4F94-82E0-4FCE97217A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32865379-41A1-4F94-82E0-4FCE97217A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32865379-41A1-4F94-82E0-4FCE97217A8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
